@@ -1,0 +1,12 @@
+Item,Description,Quantity,Unit Cost (INR),Total Cost (INR),Notes
+5010 360KV High Torque Brushless Motor for Drone,Brushless motor for hexacopter propulsion,6,1529.0,9174.0,Drone motors
+S550 Hexacopter Frame,S550 size hexacopter drone frame,1,4862.0,4862.0,Drone frame
+40A 2-6S ESC,Electronic Speed Controller for brushless motors,6,940.0,5640.0,Motor speed control
+Bonka 14.8V 5200mAh 35C 4S LiPo Battery,4S LiPo battery pack for drone power,1,5999.0,5999.0,Main power source
+Pro-Range Propellers 1238 (12x3.8),Glass fiber nylon propellers (CW+CCW),6,331.0,1986.0,Propulsion
+APM/Pixhawk Power Module XT60 28V 90A,Power module for Pixhawk flight controller,1,582.0,582.0,Power monitoring
+Gimbal Vibration Damper Rubber Balls,Rubber dampers for vibration isolation,1,135.0,135.0,Vibration reduction
+Raspberry Pi Camera Module 3,Camera module for onboard vision system,1,2982.0,2982.0,Camera system
+UBEC 5V 7A,Voltage regulator for onboard electronics,1,438.0,438.0,Power regulation
+Flysky FS‑i6X Transmitter + FS‑iA10B Receiver,RC controller and receiver set,1,5111.0,5111.0,Drone control
+TowerPro MG90S Servo Motor,Mini digital servo motor,1,125.0,125.0,Actuation / camera mount
