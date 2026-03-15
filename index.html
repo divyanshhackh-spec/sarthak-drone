@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Rescue Drone Command Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+<h1>Drone Rescue Command Center</h1>
+<p>Flood Rescue Monitoring System</p>
+</header>
+
+<div class="dashboard">
+
+<div id="map"></div>
+
+<div class="panel">
+
+<h2>Drone Operations</h2>
+
+<button onclick="deployDrone()">Deploy Scan Drone</button> <button onclick="deploySwarm()">Deploy Drone Swarm</button>
+
+<h2>Drone Telemetry</h2>
+
+<div class="telemetry">
+
+<div>Drone ID: <span id="droneId">--</span></div>
+<div>Battery: <span id="battery">--</span>%</div>
+<div>Altitude: <span id="altitude">--</span> m</div>
+<div>Speed: <span id="speed">--</span> m/s</div>
+<div>Latitude: <span id="lat">--</span></div>
+<div>Longitude: <span id="lon">--</span></div>
+
+</div>
+
+<h3>Altitude Meter</h3>
+
+<div class="altimeter">
+<div id="altitudeBar"></div>
+</div>
+
+<h2>Emergency Announcement</h2>
+
+<textarea id="announcement" placeholder="Type emergency message"></textarea>
+
+<button onclick="sendText()">Broadcast Message</button> <button onclick="startRecording()">Voice Announcement</button>
+
+</div>
+
+</div>
+
+<div id="infoPopup" class="popup hidden">
+
+<h3 id="popupTitle"></h3>
+<p id="popupDescription"></p>
+
+<button id="supplyBtn" onclick="dispatchSupply()">Send Supply Drone</button> <button onclick="closePopup()">Close</button>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
